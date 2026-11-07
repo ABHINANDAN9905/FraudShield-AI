@@ -1,0 +1,40 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+.RDataTmp
+
+# User-specific files
+.Ruserdata
+.Rlibrary/
+
+# RStudio files
+.Rproj.user/
+
+# OAuth / secret tokens
+.httr-oauth
+.Renviron
+
+# Heavy data and model binaries (preserving folder structure via .gitkeep)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+models/*
+!models/.gitkeep
+
+# Output artifacts
+outputs/plots/*
+!outputs/plots/.gitkeep
+outputs/reports/*
+!outputs/reports/.gitkeep
+outputs/tables/*
+!outputs/tables/.gitkeep
+
+# OS specific files
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store
+
